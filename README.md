@@ -7,6 +7,7 @@
 0. [Table  of contents](#table-of-contents)
 1. [About Jasmin](#about-jasmin)
 2. [Installation](#installation)
+3. [Pages](#pages)
 
 
 ## About Jasmin
@@ -38,3 +39,10 @@ nix-env -iA nixpkgs.jasmin-compiler
 ```
 run opam install jasmin
 ```
+
+## Pages
+The following pages are available in this documentation:
+ - [Basic Jasmin usage](https://github.com/cos-imo/Jasmin-doc/blob/main/pages/basic-usage.md)
+ - [Functions](https://github.com/cos-imo/Jasmin-doc/blob/main/pages/functions.md)
+ - [Annotations, types and variables](https://github.com/cos-imo/Jasmin-doc/blob/main/pages/annotations-types-and-variables.md)
+ 
