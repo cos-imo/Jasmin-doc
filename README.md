@@ -1,12 +1,15 @@
+<img src="https://github.com/cos-imo/Jasmin-doc/blob/main/ressources/images/jasmin.png" width="64" align="left" />
+
 # Jasmin documentation
 
 ## Table of contents
 
-0. Table  of contents
-1. About Jasmin
+0. [Table  of contents](#table-of-contents)
+1. [About Jasmin](#about-jasmin)
+2. [Installation](#installation)
 
 
-# About Jasmin
+## About Jasmin
 > [!Warning]
 > This text is just a copy-paste about the "About" section of the official wiki   
 > You can access it directly [here](https://github.com/jasmin-lang/jasmin/wiki/About)   
@@ -21,3 +24,17 @@ Jasmin programs can be automatically checked for **safety** and **termination** 
 The Jasmin compiler produces predictable assembly and ensures that the use of high-level abstractions incurs no run-time penalty. It is formally verified for correctness (the precise Coq statement and the corresponding machine-checked proofs can be found in the `proofs/compiler/compiler_proof.v file). This justifies that many properties can be proved on a source program and still apply to the corresponding assembly program: safety, termination, functional correctness…
 
 The Jasmin workbench leverages the [EasyCrypt](https://www.easycrypt.info) toolset for **formal verification**. Jasmin programs can be [extracted](https://github.com/jasmin-lang/jasmin/wiki/Extraction-to-EasyCrypt) to corresponding EasyCrypt programs to prove functional correctness, cryptographic security, or security against side-channel attacks (constant-time).
+
+## Installation
+> [!Warning]
+> Those are just two commands you can use to  install Jasmin
+> Please consult the [official wiki](https://github.com/jasmin-lang/jasmin/wiki/Installation-instructions) for extensive information
+
+**Using nix shell**
+```
+nix-env -iA nixpkgs.jasmin-compiler
+```
+**Using opam**
+```
+run opam install jasmin
+```
