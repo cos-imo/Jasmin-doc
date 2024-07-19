@@ -1,3 +1,5 @@
+<img src="https://github.com/cos-imo/Jasmin-doc/blob/main/ressources/images/jasmin.png" width="64" align="left" />
+
 # Jasmin documentation
 
 ## Table of contents
