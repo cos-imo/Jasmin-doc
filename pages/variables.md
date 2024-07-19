@@ -18,7 +18,7 @@ Since jasmin is a low-level language, you can actually choose where your variabl
  - **`uX`** where `X` is an integer in the set {8, 16, 32, 64, 128, 256} denotes a X-bits  variable
 # Stack Spilling
 
-> **Note**  
+> [!TIP] 
 > You can sometimes avoid the error
 > > compilation error:  
 > > register allocation: cannot allocate x.447 into RAX.66, the variable is already allocated in RDI.59  
