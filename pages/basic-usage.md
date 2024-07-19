@@ -1,5 +1,5 @@
 # Basic Usage
-> ℹ️ **About**  
+> [!Note] 
 > This page is explaining the basic uses of jasmin: how to compile to assembly, how to use CLI...
 > Please note that the offered content is just notes from [the official wiki](https://github.com/jasmin-lang/jasmin/wiki)
 
